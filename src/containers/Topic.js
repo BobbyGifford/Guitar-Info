@@ -27,7 +27,17 @@ class Topic extends Component {
           </h1>
         </div>
         <div className="row">
-            <img className="img-fluid" alt="display" style={{margin: "auto", maxHeight: "20em"}} src={currentGuitar.image} />
+          <img
+            className="img-fluid"
+            alt="display"
+            style={{ margin: "auto", maxHeight: "20em" }}
+            src={currentGuitar.image}
+          />
+        </div>
+        <div className="row my-2">
+          <div className="col-12 mx-auto">
+            <h4>Factors: {currentGuitar.factors}</h4>
+          </div>
         </div>
         <div className="row">
           <div className="col-12 mx-auto">{currentGuitar.description1}</div>
