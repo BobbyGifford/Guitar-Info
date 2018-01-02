@@ -8,8 +8,20 @@ class Home extends Component {
     return siteInfo.guitarDetails.map(guitar => {
       return (
         <div className="col-md-3 my-3" key={guitar.topic}>
-          <Link to={"/topic/" + guitar.topic}>{guitar.topic}</Link>
+          <div className="card" style={{ textAlign: "center", height: '25em'}}>
+            <img style={{maxHeight: "300px", maxWidth: "300px", margin: 'auto'}} className="card-img-top img-thumbnail" src={guitar.image} alt="a" />
+            <h5 className="card-title">{guitar.topic}</h5>
+            <Link to={"/topic/" + guitar.topic}>
+              <button className="btn btn-info mb-2">View</button>
+            </Link>
+          </div>
         </div>
+
+        // <div className="col-md-3 my-3" key={guitar.topic}>
+        //   <Link to={"/topic/" + guitar.topic}>{guitar.topic}
+        //   <img src={guitar.image} />
+        //   </Link>
+        // </div>
       );
     });
   }
@@ -24,17 +36,3 @@ class Home extends Component {
 }
 
 export default Home;
-{
-  /* <div className="container-fluid">
-<div className="row">
-  <div className="col-md-3 my-3"><Link to="/topic/scale length">Scale Length</Link></div>
-  <div className="col-md-3 my-3">item</div>
-  <div className="col-md-3 my-3">item</div>
-  <div className="col-md-3 my-3">item</div>
-  <div className="col-md-3 my-3">item</div>
-  <div className="col-md-3 my-3">item</div>
-  <div className="col-md-3 my-3">item</div>
-  <div className="col-md-3 my-3">item</div>
-</div>
-</div> */
-}

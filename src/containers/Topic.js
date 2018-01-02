@@ -11,7 +11,6 @@ class Topic extends Component {
         guitarList: siteInfo.guitarDetails
     }
 
-
     }
 
   render() {
