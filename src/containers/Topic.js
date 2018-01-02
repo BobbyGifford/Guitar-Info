@@ -34,14 +34,21 @@ class Topic extends Component {
             src={currentGuitar.image}
           />
         </div>
-        <div className="row my-2">
+        <div style={{textAlign: 'center'}} className="row my-2">
           <div className="col-12 mx-auto">
             <h4>Factors: {currentGuitar.factors}</h4>
           </div>
         </div>
-        <div className="row">
+        <div className="row my-2">
           <div className="col-12 mx-auto">{currentGuitar.description1}</div>
         </div>
+        <div className="row my-2">
+          <div className="col-12 mx-auto">{currentGuitar.description2}</div>
+        </div>
+        <div className="row my-2">
+          <div className="col-12 mx-auto">{currentGuitar.description3}</div>
+        </div>
+
       </div>
     );
   }
