@@ -16,12 +16,6 @@ class Home extends Component {
             </Link>
           </div>
         </div>
-
-        // <div className="col-md-3 my-3" key={guitar.topic}>
-        //   <Link to={"/topic/" + guitar.topic}>{guitar.topic}
-        //   <img src={guitar.image} />
-        //   </Link>
-        // </div>
       );
     });
   }
