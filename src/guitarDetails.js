@@ -1,8 +1,8 @@
 module.exports = {
   guitarDetails: [
-    { topic: "Nut", description: "this is nut page", image: "http://i0.wp.com/acousticguitar.com/wp-content/uploads/2012/11/nut.jpeg"},
-    { topic: "Bridge", description: "this is bridge", image: "https://static1.squarespace.com/static/5772af1029687f3cdf68994e/t/58dc3bb51b631b87a831e7ca/1490828222938/lr-baggs-x-bridge-electric-guitar-bridge-pickup.jpg"},
-    { topic: "Scale Length", description: "This is scale length", image: "http://guitarless.com/wp-content/uploads/2009/11/101scalelength.jpg" },
+    { topic: "Nut", description: "this is nut page", image: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Guitar_nut.jpg"},
+    { topic: "Bridge", description: "this is bridge", image: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Fender_American_Telecaster_with_Callaham_bridge_plate_and_compensated_brass_saddles_-_body_from_side.jpg"},
+    { topic: "Scale Length", description: "This is scale length", image: "https://upload.wikimedia.org/wikipedia/commons/d/d0/1978_Fender_Stratocaster_hardtail_%282008-11-02_16.03.12_by_irish10567%29.jpg" },
     { topic: "Radius", description: "this si the radius", image: "radius" },
     { topic: "Fret Size", description: "this is fret sizes", image: "fretsize" },
     { topic: "Fret Sizadsfadfad", description: "this is freasdfadsfast sizes", image: "fretsize" },
