@@ -2,7 +2,7 @@ import React from "react";
 
 const about = props => {
   return (
-    <div>
+    <div className="container">
       <div className="row">
         <h1 className="col align-self-center">Why I made this site</h1>
       </div>

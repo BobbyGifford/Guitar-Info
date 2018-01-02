@@ -6,6 +6,7 @@ import "./App.css";
 import Navbar from "./components/navbar";
 import Home from "./containers/Home";
 import About from "./components/about";
+import Topic from './containers/Topic';
 
 class App extends Component {
   render() {
@@ -13,9 +14,10 @@ class App extends Component {
       <BrowserRouter>
         <div className='App'>
           <Navbar />
-          <div className="container">
+          <div>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
+            <Route exact path="/topic/:topicName" component={Topic} /> 
           </div>
         </div>
       </BrowserRouter>
