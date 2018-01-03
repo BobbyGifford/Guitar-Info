@@ -48,7 +48,9 @@ class Topic extends Component {
         <div className="row my-2">
           <div className="col-12 mx-auto">{currentGuitar.description3}</div>
         </div>
-
+        <div className="row my-2">
+          <div className="col-12 mx-auto">{currentGuitar.description4}</div>
+        </div>
       </div>
     );
   }

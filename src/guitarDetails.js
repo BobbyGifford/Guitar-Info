@@ -41,9 +41,12 @@ module.exports = {
     },
     {
       topic: "Fret Size",
-      description1: "this is fret sizes",
+      description1: "Frets are the metal lines that your strings make contact with when you play. Frets have two import factors that control the entire feel of you guitar, material and size. ",
+      description2: "Fret material indicates what the fret is made of.  Almost every retail guitar frets are made of nickel. Nickel frets wear out over the course of several years. Eventually they will need to be leveled or replaced. ",
+      description3: "Stainless steel frets are almost indestructible. They never wear and are easier to bend on. ",
+      description4: "Fret size indicates how wide and high they are. Higher frets are easier to bend on and have better sustain. Any modern guitar will have medium-jumbo sized frets.",
       factors: "bends, sustain, and fret life",
       image: "https://static.pexels.com/photos/258294/pexels-photo-258294.jpeg"
     }
   ]
-};
+}
