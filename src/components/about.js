@@ -8,8 +8,8 @@ const about = props => {
       </div>
 
       <div className="row">
+        <hr />
         <p className="col align-self-center lead">
-          <hr />
           Playing guitar has been one of my favorite hobbies for about a decade.
           When I first started playing I didn’t understand what any of the
           technical specs meant. If you go guitar shopping online you see the
