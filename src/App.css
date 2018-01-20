@@ -2,3 +2,34 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.card-img {
+  max-height: 350px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.welcome-page {
+  text-align: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #41ebf4, #425cf4);
+  position: relative;
+}
+
+.welcome-text {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  animation: inFromRight 1.5s ease-out;
+}
+
+@keyframes inFromRight {
+  0% {
+    opacity: 0%;
+    transform: translateX(-150px);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+}

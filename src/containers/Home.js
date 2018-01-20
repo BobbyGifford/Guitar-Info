@@ -9,7 +9,7 @@ class Home extends Component {
       return (
         <div className="col-md-3 my-3" key={guitar.topic}>
           <div className="card" style={{ textAlign: "center", height: '25em'}}>
-            <img style={{maxHeight: "350px", maxWidth: "300px", margin: 'auto'}} className="card-img-top img-thumbnail" src={guitar.image} alt="a" />
+            <img className="card-img-top img-thumbnail card-img" src={guitar.image} alt="a" />
             <h5 className="card-title">{guitar.topic}</h5>
             <hr />
             <Link to={"/topic/" + guitar.topic}>
