@@ -22,7 +22,7 @@ class GuitarList extends Component {
               <h5 className="card-title">{guitar.topic}</h5>
               <hr />
               <Link to={"/topic/" + guitar.topic}>
-                <button className="btn btn-dark btn-lg mb-2">Learn More</button>
+                <button className="btn btn-primary btn-lg mb-2">Learn More</button>
               </Link>
             </div>
           </div>

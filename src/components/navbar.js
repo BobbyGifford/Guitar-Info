@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const navbar = props => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <Link to="/home" style={{ color: "white" }} className="navbar-brand">
           Guitar Info
         </Link>
