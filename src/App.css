@@ -1,5 +1,5 @@
 .App {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .card-img {
@@ -24,7 +24,6 @@ setBackground {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: inFromRight 2s ease-out;
 }
 
 @keyframes inFromRight {
